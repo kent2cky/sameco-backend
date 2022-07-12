@@ -4,7 +4,7 @@
 
 const api = require('./src/api');
 
-const PORT = 80;
+const PORT = 8080;
 
 api.listen(PORT, () => {
   console.log(`Listening on port ${PORT}`);
