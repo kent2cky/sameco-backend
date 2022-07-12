@@ -16,6 +16,8 @@ module.exports = {
     transactions: false,
   },
 
+  port: 80,
+
   /**
    * Secret used to Sign the JWT (Authentication) tokens.
    */
